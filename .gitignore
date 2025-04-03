@@ -1,0 +1,49 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio folders
+.vs/
+.vscode/
+
+# Dependency caches
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core
+*.deps.json
+*.runtimeconfig.json
+
+# Logs
+*.log
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Installer files
+*.msi
+*.exe
+*.zip
+
+# Publish folders
+publish/
+artifacts/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Auto-generated files
+Generated_Code/
