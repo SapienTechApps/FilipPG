@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.0.1",
   "build": "2024-04-04-01",
-  "releaseNotes": "??? Prvá verejná verzia FilipPG. Monitor CPU a RAM, tray ikona, ECO režim, notifikácie, EventLog.",
+  "releaseNotes": "First public version of  FilipPG. Monitor CPU and RAM, tray icon, ECO running, notification, EventLog writing.",
   "updateUrl": "https://github.com/SapienTechApps/FilipPG/releases/download/v1.0.1/FilipPG.exe"
 }
