@@ -47,3 +47,9 @@ artifacts/
 
 # Auto-generated files
 Generated_Code/
+
+# Blazor / PWA additions
+wwwroot/
+*.br
+*.gz
+*.pdb

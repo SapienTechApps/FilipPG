@@ -12,6 +12,12 @@
 
             <TextBlock Text="Režim: ECO" HorizontalAlignment="Center" FontWeight="SemiBold" />
             <TextBlock Name="ModeText" Text="Režim: ECO" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+            <Button Content="Skontrolovať aktualizáciu"
+        Click="CheckUpdate_Click"
+        Width="344"
+        Height="30"
+        HorizontalAlignment="Left"
+        Margin="20,20,0,0" RenderTransformOrigin="0.956,0.549"/>
 
 
             <TextBlock Text="CPU zaťaženie" Margin="0,10,0,5"/>
@@ -21,8 +27,7 @@
             <TextBlock Text="Obsadenie RAM" Margin="0,10,0,5"/>
             <ProgressBar Name="RamBar" Height="20" Maximum="100" Value="0" />
             <TextBlock Name="RamText" Text="--- MB" HorizontalAlignment="Right" Margin="0,2,0,10"/>
-            <Button Content="Stíš Filipa" Width="150" Height="30" 
-        HorizontalAlignment="Center" Margin="0,20,0,0"
+            <Button Content="Stíš Filipa" Width="345" Height="23"
         Click="SilenceFilip_Click"/>
         </StackPanel>
     </Grid>

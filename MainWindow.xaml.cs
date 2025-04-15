@@ -39,6 +39,8 @@ namespace FilipPG
             updateTimer = new Timer(60000);
             updateTimer.Elapsed += (s, e) => UpdateNow();
             updateTimer.Start();
+            _ = UpdateChecker.CheckForUpdatesAsync();
+
         }
 
         private void InitTray()
@@ -148,6 +150,11 @@ namespace FilipPG
         private void SilenceFilip_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
+        }
+
+        private async void CheckUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            await UpdateChecker.CheckForUpdatesAsync();
         }
     }
 }
